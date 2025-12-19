@@ -1,0 +1,109 @@
+{
+  "features": [
+    "Gender",
+    "Age",
+    "family_history_with_overweight",
+    "FAVC",
+    "FCVC",
+    "NCP",
+    "CAEC",
+    "SMOKE",
+    "CH2O",
+    "SCC",
+    "FAF",
+    "TUE",
+    "CALC",
+    "MTRANS"
+  ],
+  "num_cols": [
+    "Age",
+    "FCVC",
+    "NCP",
+    "CH2O",
+    "FAF",
+    "TUE"
+  ],
+  "cat_cols": [
+    "Gender",
+    "family_history_with_overweight",
+    "FAVC",
+    "CAEC",
+    "SMOKE",
+    "SCC",
+    "CALC",
+    "MTRANS"
+  ],
+  "cat_options": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "family_history_with_overweight": [
+      "no",
+      "yes"
+    ],
+    "FAVC": [
+      "no",
+      "yes"
+    ],
+    "CAEC": [
+      "Always",
+      "Frequently",
+      "Sometimes",
+      "no"
+    ],
+    "SMOKE": [
+      "no",
+      "yes"
+    ],
+    "SCC": [
+      "no",
+      "yes"
+    ],
+    "CALC": [
+      "Always",
+      "Frequently",
+      "Sometimes",
+      "no"
+    ],
+    "MTRANS": [
+      "Automobile",
+      "Bike",
+      "Motorbike",
+      "Public_Transportation",
+      "Walking"
+    ]
+  },
+  "num_ranges": {
+    "Age": [
+      14.0,
+      61.0,
+      22.77789
+    ],
+    "FCVC": [
+      1.0,
+      3.0,
+      2.385502
+    ],
+    "NCP": [
+      1.0,
+      4.0,
+      3.0
+    ],
+    "CH2O": [
+      1.0,
+      3.0,
+      2.0
+    ],
+    "FAF": [
+      0.0,
+      3.0,
+      1.0
+    ],
+    "TUE": [
+      0.0,
+      2.0,
+      0.62535
+    ]
+  }
+}
